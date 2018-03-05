@@ -10,3 +10,10 @@ def countdown(integer)
     "HAPPY NEW YEAR!"
   end
 end
+
+def countdown_with_sleep(integer)
+  while integer > 0
+    sleep 1 
+    integer = integer -= 1
+  end
+end
